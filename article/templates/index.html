@@ -12,6 +12,33 @@
   <body>
       
     <!-- Optional JavaScript -->
+
+    <script type="text/javascript">
+        
+        new vue({
+            el: '#starting',
+            delimter: ['[[', ']]'],
+            data: {
+                articles: [],
+                loading: false,
+                currentArticle: {},
+                message: null,
+                newArticles: { 'article_heading': null, 'article_body': null},
+            },
+            mounted: function() {
+
+
+            },
+            methods: {
+
+
+            }
+        });
+console.log('running')
+    </script>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.min.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
