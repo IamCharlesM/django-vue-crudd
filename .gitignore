@@ -51,6 +51,7 @@ coverage.xml
 # Translations
 *.mo
 *.pot
+temp_auto_push.bat
 
 # Django stuff:
 *.log
@@ -105,3 +106,5 @@ venv.bak/
 .mypy_cache/
 
 
+.gitignore
+branch_structure.json
